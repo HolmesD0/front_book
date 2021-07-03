@@ -1,0 +1,34 @@
+.home{
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(247, 229, 195, 0.938);
+}
+.home-image{
+  width: 100%;
+  height: 400px;
+}
+
+.catalogue{
+  margin: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.home-row{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+}
+.home-row li{
+  list-style-type: none;
+  margin: 1.5rem;
+  padding: 0;
+  flex: 0 1 20rem;
+}
+
+

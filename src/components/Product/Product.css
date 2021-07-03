@@ -1,0 +1,50 @@
+.article{
+    background-color: rgb(226, 185, 131);
+    display: flex;
+    flex-direction:column;
+    max-height: 400px;
+   height: 350px;
+    margin: 10px;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    justify-content: flex-end;
+    border-radius:10px;
+    
+}
+.cover{
+   
+     width: 160px;
+     height: 160px;
+}
+.article-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.article-info{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+.article-price{
+    margin-top: 5px;
+}
+.card-header >img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+#view{
+    background-color: rgba(253, 252, 250, 0.829);
+    border: 1px solid;
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+ 
+    border:none;
+    font-weight: bold;
+    color: rgb(65, 43, 14);
+    border-radius:20px;  
+}

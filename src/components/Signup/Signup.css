@@ -1,0 +1,100 @@
+#root{
+  height: 100%;
+}
+label{  
+    float:left;
+    font-size:25px;
+    width:200px;
+    color: rgb(31, 21, 9);
+    padding-left: 50px;
+  }
+  
+  .signup{  
+    color:#080000;
+    background-image: url("../images/photo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family:cursive;
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+  }	
+  form{ 
+    margin-bottom: 140px;
+    margin-left: 380px;
+    margin-right: 320px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color:rgba(83, 58, 23, 0.596);
+    width: 600px;
+    height:560px;
+    padding-bottom: 10px;
+  }
+  #field1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #confirmer:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  #connexion{
+    padding: 1px 40px;
+    padding-left: 120px;
+    color: rgb(48, 23, 5);
+    margin-left: 70px;
+    margin-top: 5px;
+  }
+  #confirmer{ 
+  border:none;
+  border-radius:20px;
+  color:rgba(59, 39, 9, 0.575) ;
+  font:18px Georgia,Times,serfia;
+  margin-top:0px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding:7px 25px;
+  text-transform: uppercase;
+  }
+  #field1 input{
+ background-color: rgb(209, 188, 171);
+  border-radius: 8px;
+  border-color: rgb(206, 108, 52);
+  width: 280px;
+  margin-left:10px;
+  
+  }
+  a{
+  color:rgba(59, 39, 9, 0.411) ;
+  text-decoration: none;
+  }
+  a:hover{
+  color:rgb(44, 21, 2)
+  }
+  
+  legend{ color: rgb(31, 21, 9);
+   font-size:40px;
+ 
+   padding-top:40px; 
+  padding-bottom: 5px;
+   margin-bottom: 20px;
+   }
+  tr{
+  font-size:18px;
+  
+  }
+  td{
+  border: none;
+  }
+  #field1 tr{
+  margin-bottom: 60px;
+  }
+  
+  table{ 
+   border-radius:20px;
+   line-height:30px;
+   padding:20px 20px;
+   margin-bottom:5px;
+   width:100%;
+  }
+  

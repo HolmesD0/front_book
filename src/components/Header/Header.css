@@ -1,0 +1,92 @@
+
+.header{
+    background-color: rgb(70, 44, 11);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color:white;
+}
+.header button{
+    font-size: 2rem;
+    padding: .4rem;
+    background: none;
+    border: none;
+    color: rgba(240, 192, 130, 0.938);
+    margin-bottom: 0;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.aside{
+    position: fixed;
+    transform: translateX(-30rem);
+    height: 100%;
+    width: 20rem;
+    font-family:cursive;
+    background-color: rgb(121, 83, 39);
+}
+.aside ul > li > a{
+    color: rgb(56, 38, 12);
+} 
+.aside h3{
+    color:rgb(56, 38, 12);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.aside.open{
+    transform: translateX(0);
+}
+.button-close{
+    border-radius: 50%;
+    border: .1rem black solid;
+    width: 2.5rem;
+    height: 2.6rem;
+    padding: .5rem;
+    font-size: 2rem;
+    padding-top: 0;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    
+}
+.header-logo{
+    width:110px;
+    height: 50px;
+    margin: 3px;
+    object-fit: contain;
+}
+.header-search{
+    display: flex;
+    flex: 1;
+}
+.header-searchinput{
+ height:18,2px ;
+ padding: 10px;
+ width: 100%;
+ border: none;
+ font-family: cursive;
+}
+.header-searchicon{
+    padding:5px ;
+    height: 29px !important;
+    background-color: rgba(209, 152, 77, 0.938);
+}
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-link{
+    color: white;
+    text-decoration: none;   
+}
+.header-option{
+    display:flex ;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
